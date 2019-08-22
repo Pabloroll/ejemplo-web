@@ -1,0 +1,131 @@
+﻿body {font-family: Arial, Verdana, sans-serif;}
+
+header {
+	background-color: #2EFEF7;
+	color: darkblue;
+	text-align: right;
+	border: 1px solid blue;
+	margin: -20px -20px 20px -20px;
+	padding: 10px 20px 0px 0px;
+}
+
+header p {
+	margin-top: 20px;
+	padding-right: 60px;
+}
+
+header i {
+	float: right;
+	margin-top: -40px;
+	margin-right: 20px;
+}
+footer {
+	background-color: #2EFEF7;
+	text-align: center;
+	border: 1px solid blue;
+	margin: 50px -20px -20px -20px;
+	padding: 0px 20px 10px 20px;
+}
+
+footer p {margin-top: 50px;}
+.anuncio-correos {
+	background-image: url(../img/cambiadas/fondo-correos.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	width: 20%;
+	top: 10px;
+	left: 10px;
+	height: 543px;
+	padding: 10px;
+	margin-top: 120px;
+	margin-left: 5px; 
+}
+.correos {
+	text-align: center;
+	list-style-type: none;
+	background-color: #ecc32a;
+	width: 100%;
+	top: 30px;
+	padding: 20px 10px 20px 10px;
+	margin-top: 565px;
+	margin-left: -10px;
+}
+.menu {
+	position: fixed;
+	width: 20%;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+	border: 1px solid darkblue;
+	background-color: white;
+	z-index: 1000;
+}
+
+.menu ul, li {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.menu ul li a {
+	display: block;
+	background-color: darkblue;
+	padding:6px;
+	margin-top:5px;
+	color: white;
+	text-decoration: none;
+	margin-left: -60px;
+}
+
+.menu li a:hover {
+	color: white;
+	background-color: red;
+}
+
+ li a: hover .menu{color: red }
+
+ li a:visitd .menu{color: #000066}
+
+.cyberpunk {
+	margin-top: -650px;
+	margin-left: 380px;
+}
+
+.cyberpunk p {
+	text-align: justify;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+
+.cyberpunk iframe {
+	width: 950px;
+	height: 515px;
+}
+
+.cyberpunk i {
+	color: darkblue;
+	margin-left: 480px;
+	margin-top: 40px;
+}
+
+.bill-gates {
+	margin-top: 50px;
+	margin-left: 380px;
+}
+
+.bill-gates figure {
+	margin-left: -2px;
+	width: 950px;
+	height: 515px;
+}
+
+.bill-gates p {
+	text-align: justify;
+	margin-top: 45px;
+	margin-right: 85px;
+}
+
+.bill-gates i {
+	color: darkblue;
+	margin-left: 400px;
+	margin-top: 40px; 
+}
